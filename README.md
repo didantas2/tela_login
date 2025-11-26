@@ -1,24 +1,30 @@
-# Tela de Login 🔐
+# Tela de Login – Projeto Front-End
 
-Projeto: Tela de Login simples com HTML e CSS.
+Este é um projeto simples de **tela de login** feito com **HTML5 e CSS3**, criado para treinar estruturação, organização de pastas e estilização básica.
 
-## Tecnologias
-- HTML5
-- CSS3
+---
 
-## Como abrir
-Abra `index.html` no navegador.
+## 🚀 Funcionalidades
 
-## Estrutura
-/meu-projeto-login
-├── index.html
-├── estilo.css
-└── imagens/
-└── screenshot.png
+- Campos de login e senha  
+- Botão de acesso estilizado  
+- Opção “Lembrar-me”  
+- Link de recuperação de senha  
+- Layout centralizado e responsivo
+
+---
+
+## 📁 Estrutura de Pastas
+
+│── index.html
+│── estilo.css
+
+Aqui está uma prévia da tela de login:
+
+<img width="429" height="415" alt="image" src="https://github.com/user-attachments/assets/80987552-a7f6-416f-888d-a46585db6546" />
 
 
-## Imagem
-<img width="389" height="446" alt="image" src="https://github.com/user-attachments/assets/583472de-1b8c-4e16-823e-0c340269a2a4" />
 
-## Autor
+
 Diogo Dantas
+
