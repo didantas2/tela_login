@@ -1,0 +1,112 @@
+/* Reset básico */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Fundo */
+body {
+	background: #f0f0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card-header {
+
+    background: #007bff;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 12px;
+    margin: -20px -20px 20px -20px;
+    border-radius: 8px 8px 0 0;
+    letter-spacing: 0.5px;
+}
+
+
+
+
+
+/* Título */
+h2 {
+	margin-bottom: 20px;
+	text-align: top;
+	color: #333;
+}
+
+/* Caixa do formulário */
+form {
+	background: white;
+	padding: 20px;
+	width: 300px;
+	border-radius: 8px;
+	box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+/* Labels */
+form label {
+	font-size: 14px;
+	color: #555;
+}
+
+/* Inputs */
+form input[type="text"],
+form input[type="password"] {
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+/* Efeito quando o usuário clica no campo */
+form input:focus {
+	border-color: #007bff;
+	outline: none;
+	box-shadow: 0 0 5px rgba(0,123,255,0.5);
+}
+
+/* Botões */
+form input[type="submit"],
+form input[type="button"],
+form input[type="reset"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 5px;
+	width: 100%;
+	font-weight: bold;
+}
+
+/* Botão principal */
+form input[type="submit"] {
+	background: #007bff;
+	color: white;
+}
+
+/* Hover botão */
+form input[type="submit"]:hover {
+	background: #0064d4;
+}
+
+/* Botão reset */
+form input[type="reset"] {
+	background: #888;
+	color: white;
+}
+
+form input[type="reset"]:hover {
+	background: #6d6d6d;
+}
+
+/* Checkbox */
+form input[type="checkbox"] {
+	margin-right: 5px;
+}
